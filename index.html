@@ -10,8 +10,7 @@
   <br>
   <br>
   <h2>  funny fishes </h2>
-  <br>
-  <br>
+
   <ol>
     <li> Benat the Fish</li>
     <li>Dumbo octupus</li>
@@ -25,5 +24,11 @@
     const firstParagraph = paragraphs[0]
     firstParagraph.innerHTML = 'over fishes'
     firstParagraph.style.backgroundColor = 'green'
+  }, 1300)
+  setTimeout(_ => {
+    const paragraphs = document.getElementsByTagName('p')
+    const firstParagraph = paragraphs[0]
+    firstParagraph.innerHTML = 'Benat the Fish'
+    firstParagraph.style.backgroundColor = 'red'
   }, 1300)
 </script>
