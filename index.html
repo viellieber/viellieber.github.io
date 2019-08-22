@@ -1,0 +1,18 @@
+<!doctype html>
+<title>Viellieber Nick</title>
+
+<!-- Validate your own here: https://validator.w3.org/ -->
+
+<main>
+  <h1>Vielieber Nick</h1>
+  <p>Some texts.</p>
+</main>
+
+<script>
+  setTimeout(_ => {
+    const paragraphs = document.getElementsByTagName('p')
+    const firstParagraph = paragraphs[0]
+    firstParagraph.innerHTML = 'Some other text.'
+    firstParagraph.style.backgroundColor = 'pink'
+  }, 1300)
+</script>
