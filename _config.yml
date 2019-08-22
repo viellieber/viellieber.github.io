@@ -1,1 +1,19 @@
-theme: jekyll-theme-merlot
+theme: jekyll-theme-merlottheme: 
+<!doctype html>
+<title>My website</title>
+
+<!-- Validate your own here: https://validator.w3.org/ -->
+
+<main>
+  <h1>My website</h1>
+  <p>Some texts.</p>
+</main>
+
+<script>
+  setTimeout(_ => {
+    const paragraphs = document.getElementsByTagName('p')
+    const firstParagraph = paragraphs[0]
+    firstParagraph.innerHTML = 'Some other text.'
+    firstParagraph.style.backgroundColor = 'pink'
+  }, 1300)
+</script>
