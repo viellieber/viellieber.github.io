@@ -162,5 +162,12 @@ Ich freue mich auf den weiteren Weg und möchte die Gelegenheit nutzen mich bei 
   }
   </style>
     
-
+<script>
+  setTimeout(_ => {
+    const paragraphs = document.getElementsByTagName('li')
+    const secondParagraph = paragraphs[0]
+    secondParagraph.innerHTML = 'Benath the Fish'
+    secondParagraph.style.backgroundColor = 'red'
+  }, 1300)
+</script>
 
